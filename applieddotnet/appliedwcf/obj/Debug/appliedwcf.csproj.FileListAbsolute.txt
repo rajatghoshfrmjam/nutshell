@@ -1,0 +1,7 @@
+C:\nutshell\applieddotnet\appliedwcf\bin\appliedwcf.dll.config
+C:\nutshell\applieddotnet\appliedwcf\bin\appliedwcf.dll
+C:\nutshell\applieddotnet\appliedwcf\bin\appliedwcf.pdb
+C:\nutshell\applieddotnet\appliedwcf\obj\Debug\appliedwcf.csproj.AssemblyReference.cache
+C:\nutshell\applieddotnet\appliedwcf\obj\Debug\appliedwcf.csproj.CoreCompileInputs.cache
+C:\nutshell\applieddotnet\appliedwcf\obj\Debug\appliedwcf.dll
+C:\nutshell\applieddotnet\appliedwcf\obj\Debug\appliedwcf.pdb
