@@ -1,0 +1,7 @@
+C:\nutshell\applieddotnet\dotnetconsole\obj\Debug\dotnetconsole.csproj.AssemblyReference.cache
+C:\nutshell\applieddotnet\dotnetconsole\obj\Debug\dotnetconsole.csproj.CoreCompileInputs.cache
+C:\nutshell\applieddotnet\dotnetconsole\bin\Debug\dotnetconsole.exe.config
+C:\nutshell\applieddotnet\dotnetconsole\bin\Debug\dotnetconsole.exe
+C:\nutshell\applieddotnet\dotnetconsole\bin\Debug\dotnetconsole.pdb
+C:\nutshell\applieddotnet\dotnetconsole\obj\Debug\dotnetconsole.exe
+C:\nutshell\applieddotnet\dotnetconsole\obj\Debug\dotnetconsole.pdb
