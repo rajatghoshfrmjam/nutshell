@@ -12,7 +12,7 @@ using appliedaspdotnet.ServiceRef1;
 
 namespace appliedaspdotnet.program
 {
-    
+
     public partial class gemini : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
@@ -22,18 +22,6 @@ namespace appliedaspdotnet.program
             Go();
             LocateWcf();
 
-            byte[] val = { };
-            // val is a byte[] from the database
-            string fileExtension = PictureHelper.TryGetExtension(val);
-
-            // check if a valid file extension was found
-            if (fileExtension != null)
-            {
-                // it is a valid image file, write it to disk for further processing
-                string fileName = Path.Combine(Path.GetTempPath(), Guid.NewGuid().ToString() + "." + fileExtension);
-                File.WriteAllBytes(fileName, val);
-            }
-
         }
 
         void Go()
@@ -41,7 +29,7 @@ namespace appliedaspdotnet.program
             string result = string.Empty;
             for (int i = 1; i < 5; i++)
                 result += GetPrimesCount(i * 1000000, 1000000) +
-                  " primes between " + (i * 1000000) + " and " + ((i + 1) * 1000000 - 1) +  "</br>";
+                  " primes between " + (i * 1000000) + " and " + ((i + 1) * 1000000 - 1) + "</br>";
             Print(result);
         }
 
@@ -67,7 +55,7 @@ namespace appliedaspdotnet.program
         private void LocateWcf()
         {
             var client = new Service1Client();
-            string resp = client.GetData(5);
+            string resp = client.GetData(7);
             Print(resp);
         }
 

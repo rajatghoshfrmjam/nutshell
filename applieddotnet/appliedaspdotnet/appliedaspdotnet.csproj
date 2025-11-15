@@ -116,6 +116,7 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
     <Content Include="program\gemini.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -127,9 +128,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Product.cs" />
     <Compile Include="program\gemini.aspx.cs">
       <DependentUpon>gemini.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -137,7 +140,6 @@
     <Compile Include="program\gemini.aspx.designer.cs">
       <DependentUpon>gemini.aspx</DependentUpon>
     </Compile>
-    <Compile Include="program\picturehelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -162,8 +164,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
