@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="pointers.c" />
     <ClCompile Include="practical cplus.c" />
+    <ClCompile Include="PRINTMSG.C" />
+    <ClCompile Include="REPRTERR.C" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Environment.h" />
+    <ClInclude Include="Everything.h" />
+    <ClInclude Include="EXCLUDE.H" />
+    <ClInclude Include="support.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

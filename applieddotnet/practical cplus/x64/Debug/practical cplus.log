@@ -1,20 +1,4 @@
-﻿  practical cplus.c
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(14,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-  C:\nutshell\applieddotnet\practical cplus\practical cplus.c(14,9):
-  consider using '%zd' in the format string
-  
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(14,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 2 has type 'char *'
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(14,9): warning C4313: 'printf': '%u' in format string conflicts with argument 2 of type 'char *'
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(15,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-  C:\nutshell\applieddotnet\practical cplus\practical cplus.c(15,9):
-  consider using '%zd' in the format string
-  
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(15,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int *'
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(15,9): warning C4313: 'printf': '%u' in format string conflicts with argument 2 of type 'int *'
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(16,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-  C:\nutshell\applieddotnet\practical cplus\practical cplus.c(16,9):
-  consider using '%zd' in the format string
-  
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(16,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 2 has type 'double *'
-C:\nutshell\applieddotnet\practical cplus\practical cplus.c(16,9): warning C4313: 'printf': '%u' in format string conflicts with argument 2 of type 'double *'
+﻿  pointers.c
+     Creating library C:\nutshell\applieddotnet\x64\Debug\practical cplus.lib and object C:\nutshell\applieddotnet\x64\Debug\practical cplus.exp
+LINK : warning LNK4217: symbol 'ReportError' defined in 'REPRTERR.obj' is imported by 'PRINTMSG.obj' in function 'ConsolePrompt'
   practical cplus.vcxproj -> C:\nutshell\applieddotnet\x64\Debug\practical cplus.exe

@@ -18,5 +18,28 @@
     <ClCompile Include="practical cplus.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pointers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINTMSG.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="REPRTERR.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Everything.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EXCLUDE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="support.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -133,6 +133,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs" />
+    <Compile Include="program\allowedhttpmethodhandlercs.cs" />
+    <Compile Include="program\apikeyhandler.cs" />
+    <Compile Include="program\customheaderhandler.cs" />
+    <Compile Include="program\customheaderhandler2.cs" />
     <Compile Include="program\gemini.aspx.cs">
       <DependentUpon>gemini.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -140,6 +144,7 @@
     <Compile Include="program\gemini.aspx.designer.cs">
       <DependentUpon>gemini.aspx</DependentUpon>
     </Compile>
+    <Compile Include="program\logginghandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
