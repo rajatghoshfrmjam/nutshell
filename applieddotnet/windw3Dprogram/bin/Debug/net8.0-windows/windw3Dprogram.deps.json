@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "windw3Dprogram/1.0.0": {
+        "runtime": {
+          "windw3Dprogram.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "windw3Dprogram/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
